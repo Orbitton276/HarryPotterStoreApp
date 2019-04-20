@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">H.P Store</string>
+    //Error msg
+    <string name="errorPasswordPattern">Please enter 6-16 characters password, at least one capital,lower and digit</string>
+    <string name="errorReEnteredPasswordPattern">Must retype the same password</string>
+    //TextViews
+    <string name="OrSeparatorTextView">OR</string>
+    <string name="emailTextView">Email</string>
+    <string name="displayNameTextView">Display name</string>
+    <string name="passwordTextView">Password</string>
+    <string name="ForgotPasswordTextView">Forgot my password</string>
+
+    //Buttons
+    <string name="signUpButtonText">Sign up</string>
+    <string name="signInButtonText">Sign in</string>
+    <string name="facebookButtonText">Continue with Facebook</string>
+    <string name="googleButtonText">Continue with Google</string>
+    <string name="anonymousSignButtonText">  Continue anonymously</string>
+    <string name="toSignUpButtonText">Don\'t have a user?Sign up</string>
+    <string name="signOutButtonText">Sign out</string>
+    <string name="resetPasswordButtonText">Reset password</string>
+
+
+    <string name="facebook_app_id">277129522997590</string>
+    <string name="fb_login_protocol_scheme">fb277129522997590</string>
+
+
+    <string-array name="Category">
+
+        <item>None</item>
+        <item>Wands</item>
+        <item>Clothing</item>
+        <item>Books</item>
+        <item>Jewellery</item>
+        <item>Sweets</item>
+    </string-array>
+
+    <string-array name="SortBy">
+
+        <item>Price</item>
+        <item>Rating</item>
+
+    </string-array>
+
+
+</resources>

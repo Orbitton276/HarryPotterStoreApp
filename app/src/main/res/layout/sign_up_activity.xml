@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hp_vs_dlord">
+
+
+    <EditText
+        android:id="@+id/etDisplayName"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:alpha="0.7"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="@string/displayNameTextView"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+    <EditText
+        android:id="@+id/etEmail"
+        android:background="@color/white"
+        android:alpha="0.7"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/emailTextView"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="wrap_content"
+        android:background="@color/white"
+        android:alpha="0.7"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/passwordTextView"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="true"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+    <EditText
+        android:id="@+id/etReEnterPassword"
+        android:layout_width="wrap_content"
+        android:background="@color/white"
+        android:alpha="0.7"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Re-Enter password"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="true"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/bSubmit"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:onClick="onEmailPasswordSignUpClick"
+        android:text="@string/signUpButtonText"
+        android:textSize="20dp" />
+
+
+</android.support.v7.widget.LinearLayoutCompat>
